@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aidan Muchhala | Supply Chain Portfolio</title>
+<style>
+  :root { --navy:#14213d; --accent:#2a6fdb; --bg:#f6f8fb; --card:#fff; --text:#222; --muted:#5b6575; }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--text); background:var(--bg); line-height:1.6; }
+  header { background:var(--navy); color:#fff; padding:48px 20px 40px; text-align:center; }
+  header img { width:150px; height:150px; border-radius:50%; object-fit:cover; border:4px solid #fff; margin-bottom:14px; }
+  header h1 { margin:0 0 10px; font-size:2.2rem; }
+  header p { max-width:680px; margin:0 auto; font-size:1.1rem; color:#dbe4f5; }
+  nav { background:#fff; border-bottom:1px solid #e1e6ee; position:sticky; top:0; text-align:center; padding:12px; }
+  nav a { margin:0 12px; color:var(--navy); text-decoration:none; font-weight:bold; }
+  nav a:hover { color:var(--accent); }
+  main { max-width:900px; margin:0 auto; padding:20px; }
+  section { margin:36px 0; }
+  h2 { color:var(--navy); border-bottom:3px solid var(--accent); display:inline-block; padding-bottom:4px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .card { background:var(--card); border-radius:10px; padding:18px 20px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+  .card h3 { margin-top:0; color:var(--navy); }
+  .card ul { padding-left:18px; margin:0; }
+  .meta { color:var(--muted); font-size:.9rem; margin:-6px 0 10px; }
+  .project { margin-bottom:20px; }
+  .project a.top { font-size:.9rem; color:var(--accent); }
+  .tag { display:inline-block; background:#e8f0fd; color:var(--accent); border-radius:12px; padding:2px 10px; font-size:.8rem; margin:0 4px 4px 0; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; padding:10px 18px; border-radius:6px; text-decoration:none; margin:4px 6px 4px 0; }
+  .btn:hover { background:#1c57b0; }
+  footer { text-align:center; color:var(--muted); padding:24px; font-size:.9rem; }
+</style>
+</head>
+<body>
 
+<header>
+  <img src="headshot.jpg" alt="Headshot of Aidan Muchhala">
+  <h1>Aidan Muchhala</h1>
+  <p>Senior supply chain management major at Rutgers University&ndash;New Brunswick with hands-on warehouse, fulfillment, and inventory experience at FedEx and Nordstrom.</p>
+</header>
+
+<nav>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Logistics &amp; Operations</h3>
+      <ul>
+        <li>Conveyor and package-flow monitoring</li>
+        <li>Sorting by size, weight, and routing</li>
+        <li>Peak-season and high-volume operations</li>
+        <li>Damage, hazmat, and routing-error inspection</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Inventory &amp; Fulfillment</h3>
+      <ul>
+        <li>Inventory counts and backroom organization</li>
+        <li>Online and in-store order fulfillment</li>
+        <li>Merchandise staging and replenishment</li>
+        <li>Quality and presentation standards</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tools</h3>
+      <ul>
+        <li>Handheld scanners and tracking devices</li>
+        <li>Merchandise movement verification</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Professional</h3>
+      <ul>
+        <li>Teamwork under pressure</li>
+        <li>Accuracy and attention to detail</li>
+        <li>Reliability and time management</li>
+        <li>Customer and colleague support</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card project" id="fedex">
+    <h3>FedEx: Package Handler &amp; Facer</h3>
+    <p class="meta">Warehouse operations &bull; September 2023 &ndash; October 2024 (13 months)</p>
+    <p>
+      <span class="tag">Logistics</span><span class="tag">Sorting</span><span class="tag">Quality Control</span>
+    </p>
+    <p>Kept packages moving through a high-volume facility by monitoring conveyor operations to minimize delays during peak hours. Sorted and organized packages by size and weight to keep workflow efficient, and inspected them for damage, hazmat labels, and routing errors so problems were caught before they caused delays. Worked with teammates to manage heavy package volumes at peak times.</p>
+    <a class="top" href="#projects">Back to projects</a>
+  </div>
+
+  <div class="card project" id="nordstrom">
+    <h3>Nordstrom: Stockroom &amp; Fulfillment Associate</h3>
+    <p class="meta">Retail supply chain &bull; November 2025 &ndash; Present</p>
+    <p>
+      <span class="tag">Inventory</span><span class="tag">Fulfillment</span><span class="tag">Replenishment</span>
+    </p>
+    <p>Received, organized, and stocked merchandise so the sales floor stayed refilled during high-demand periods. Processed online and in-store fulfillment orders accurately, using handheld devices to scan, track, and verify merchandise movement. Maintained backroom organization, inventory counts, and product staging for quick access, and supported sales associates by locating and delivering requested items. Helped the team control heavy product flow during the store's anniversary sale.</p>
+    <a class="top" href="#projects">Back to projects</a>
+  </div>
+
+  <div class="card project" id="inventory-analysis">
+    <h3>Inventory Analysis: ABC Classification &amp; Reorder Points</h3>
+    <p class="meta">Independent project &bull; Supply chain analytics</p>
+    <p>
+      <span class="tag">Excel</span><span class="tag">Inventory Management</span><span class="tag">Analytics</span>
+    </p>
+    <p>A spreadsheet study of how a retail stockroom could prioritize its inventory. The project ranks sample items by annual usage value (ABC classification) and calculates reorder points and safety stock for the highest-value items, connecting coursework concepts to the backroom work I do at Nordstrom. Method and files are in the repository linked below.</p>
+    <a class="btn" href="https://github.com/AidanMuchhala/inventory-analysis">View project on GitHub</a>
+    <a class="top" href="#projects">Back to projects</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a class="btn" href="mailto:muchhalaaidan19@gmail.com">Email</a>
+    <a class="btn" href="https://www.linkedin.com/in/aidan-muchhala/">LinkedIn</a>
+    <a class="btn" href="https://github.com/AidanMuchhala">GitHub</a>
+  </p>
+</section>
+
+</main>
+
+<footer>&copy; Aidan Muchhala</footer>
+
+</body>
+</html>
